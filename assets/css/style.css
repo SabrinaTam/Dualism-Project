@@ -59,6 +59,30 @@ h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* hero video and cover text */
+#hero-video {
+    margin: 0%;
+}
+
+/* welcome about us*/
+
+#welcome {
+    background-color: whitesmoke;
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* footer */
 .social-networks>li {
     display: inline;
