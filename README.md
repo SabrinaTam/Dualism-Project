@@ -27,3 +27,5 @@ I have confirmed that all the navigation, headers, about us, and contact are all
 I have confirmed that the form works, requires entries in every field, will only accept an email and the submit button works
 
 ### Validator Testing
+HTML - No errors were returned when passing through the official W3C validator
+CSS - 
