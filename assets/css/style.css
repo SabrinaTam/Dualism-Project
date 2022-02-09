@@ -112,3 +112,9 @@ h2 {
     text-align: left;
     padding-top: 60px;
 }
+
+#breathing-video {
+    width: 800px;
+    height: 450px;
+    margin-left: 0%;
+}
