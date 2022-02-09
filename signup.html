@@ -19,62 +19,87 @@
         <nav id="menu">
             <ul class="clearfix">
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="signup.html" class="active">Sign Up</a>
                 </li>
                 <li>
                     <a href="exercises.html" class="active">Exercises</a>
                 </li>
                 <li>
-                    <a href="signup.html" class="active">Sign Up</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
-</section>
-<hr>
-<div>
-    <h2>Contact</h2>
-</div>
-<hr>
-<section id="contact">
-    <div>
-        <h3>Open times</h3>
+    </section>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Dualism For You</h2>
+            <div>
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" required>
+            </div>
+            <div>
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" required>
+            </div>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required>
+            </div>
+            <label for="notifications">Recieve notifications</label>
+            <input type="radio" id="notifications" name="accept_contact methods" value="notifications" required>
+            <label for="newsletter">Sign up to newsletter</label>
+            <input type="radio" id="newsletter" name="accept_contact methods" value="newsletter" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="accept_contact methods" value="both" required>
 
-        <table>
-            <tr>
-                <th></th>
-                <th>Open</th>
-                <th>Close</th>
-            </tr>
-            <tr>
-                <td>Mon - Fri</td>
-                <td>07:00-</td>
-                <td>21:00</td>
-            </tr>
-            <tr>
-                <td>Weekend</td>
-                <td>10:00-</td>
-                <td>22:00</td>
-            </tr>
-        </table>
+            <input class="join-button" type="submit" value="Sign up">
+        </form>
+    </section>
+    <hr>
+    <div>
+        <h2>Contact</h2>
     </div>
-    <div>
-        <h3>Get in touch</h3>
-
+    <hr>
+    <section id="contact">
         <div>
-            <span class="bold">Phone: </span>
-            <span>0207 000 0000</span>
+            <h3>Open times</h3>
+
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Open</th>
+                    <th>Close</th>
+                </tr>
+                <tr>
+                    <td>Mon - Fri</td>
+                    <td>07:00-</td>
+                    <td>21:00</td>
+                </tr>
+                <tr>
+                    <td>Weekend</td>
+                    <td>10:00-</td>
+                    <td>22:00</td>
+                </tr>
+            </table>
         </div>
         <div>
-            <span class="bold">Email: </span>
-            <span>email@dualismyoga.com</span>
+            <h3>Get in touch</h3>
+
+            <div>
+                <span class="bold">Phone: </span>
+                <span>0207 000 0000</span>
+            </div>
+            <div>
+                <span class="bold">Email: </span>
+                <span>email@dualismyoga.com</span>
+            </div>
         </div>
-    </div>
-    <div>
-        <h3>Address</h3>
-        <p>Dualism Yoga Studio,<br>4 Calm Street,<br>London</p>
-    </div>
-</section>
+        <div>
+            <h3>Address</h3>
+            <p>Dualism Yoga Studio,<br>4 Calm Street,<br>London</p>
+        </div>
+    </section>
     <footer>
         <ul class="social-networks">
             <li>
