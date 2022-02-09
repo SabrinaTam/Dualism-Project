@@ -13,3 +13,54 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+
+/*headings and logo */
+h1,
+h2 {
+    font-family: lato, sans-serif;
+    letter-spacing: 2px;
+    color: #252525;
+    margin: 0%;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 20px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: silver;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero video and cover text */
+#hero-video {
+    margin: 0%;
+}
