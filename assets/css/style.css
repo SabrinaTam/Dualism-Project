@@ -219,7 +219,7 @@ h2 {
     }
 }
 
-/*For ipad and tablet screen sizes from 760px wide and down */
+/*For screen sizes from 760px wide and down */
 @media screen and (max-width: 760px) {
     #hero-video {
         width: 760px;
@@ -235,17 +235,22 @@ h2 {
         margin-left: 0;
     }
 
-    #contact{
-        font-size:10px;
+    #contact {
+        font-size: 10px;
+    }
+
+    .pose-images {
+        width: 500px;
+        height: auto;
     }
 }
 
-/*Mobile devices 500px wide and down*/
+/* For mobile devices 500px wide and down*/
 @media screen and (max-width: 500px) {
 
     #poses {
         margin-left: 2px;
-        margin-right:2px;
+        margin-right: 2px;
     }
 
     #hero-video {
@@ -255,6 +260,11 @@ h2 {
 
     #breathing-video {
         width: 555px;
+        height: auto;
+    }
+
+    .pose-images {
+        width: 330px;
         height: auto;
     }
 }
