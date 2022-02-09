@@ -173,3 +173,88 @@ h2 {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
+/* Media Queries */
+
+/*For larger to medium screens from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #welcome {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #hero-video {
+        width: 1200px;
+        height: auto;
+    }
+}
+
+/*For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #menu {
+        display: block;
+        font-size: 16px;
+    }
+
+    #logo {
+        font-size: 25px;
+        margin: 3px;
+    }
+
+    #hero-video {
+        width: 950px;
+        height: auto;
+
+    }
+
+    #poses-intro {
+        width: 100%;
+    }
+
+    #breathing-video {
+        width: 800px;
+        height: auto;
+    }
+}
+
+/*For ipad and tablet screen sizes from 760px wide and down */
+@media screen and (max-width: 760px) {
+    #hero-video {
+        width: 760px;
+        height: auto;
+    }
+
+    #breathing-video {
+        width: 700px;
+        height: auto;
+    }
+
+    .exercises-intro {
+        margin-left: 0;
+    }
+
+    #contact{
+        font-size:10px;
+    }
+}
+
+/*Mobile devices 500px wide and down*/
+@media screen and (max-width: 500px) {
+
+    #poses {
+        margin-left: 2px;
+        margin: right 2px;
+    }
+
+    #hero-video {
+        width: 480px;
+        height: auto;
+    }
+
+    #breathing-video {
+        width: 555px;
+        height: auto;
+    }
+}
