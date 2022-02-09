@@ -176,6 +176,12 @@ h2 {
 
 /* Media Queries */
 
+/*For extra large screens from 1600px wide and down*/
+#hero-video {
+    width: 100%;
+    height: auto;
+}
+
 /*For larger to medium screens from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #welcome {
@@ -186,13 +192,18 @@ h2 {
     }
 
     #hero-video {
-        width: 1200px;
+        width: 100%;
         height: auto;
     }
 }
 
 /*For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
+    #hero-video {
+        width: 100%;
+        height: auto;
+    }
+
     #menu {
         display: block;
         font-size: 16px;
@@ -203,32 +214,27 @@ h2 {
         margin: 3px;
     }
 
-    #hero-video {
-        width: 950px;
-        height: auto;
-
-    }
 
     #poses-intro {
         width: 100%;
     }
 
     #breathing-video {
-        width: 800px;
-        height: auto;
+        width:90%;
+        height:450px;
     }
 }
 
 /*For screen sizes from 760px wide and down */
 @media screen and (max-width: 760px) {
     #hero-video {
-        width: 760px;
+        width: 100%;
         height: auto;
     }
 
     #breathing-video {
         width: 700px;
-        height: auto;
+        height: 450px;
     }
 
     .exercises-intro {
@@ -247,20 +253,19 @@ h2 {
 
 /* For mobile devices 500px wide and down*/
 @media screen and (max-width: 500px) {
+    #hero-video {
+        width: 100%;
+        height: auto;
+    }
 
     #poses {
         margin-left: 2px;
         margin-right: 2px;
     }
 
-    #hero-video {
-        width: 480px;
-        height: auto;
-    }
-
     #breathing-video {
-        width: 450px;
-        height: auto;
+        width: 550px;
+        height:400px;
     }
 
     .pose-images {
