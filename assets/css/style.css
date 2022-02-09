@@ -59,8 +59,15 @@ h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
-/* hero video and cover text */
-#hero-video {
+/* footer */
+.social-networks>li {
+    display: inline;
     margin: 0%;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 0%;
+    padding: 5%;
+    color: #3a3a3a;
 }
