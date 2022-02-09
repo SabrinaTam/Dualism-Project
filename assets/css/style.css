@@ -101,3 +101,14 @@ h2 {
     padding: 5%;
     color: #3a3a3a;
 }
+#poses {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.poses-intro {
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 60px;
+}
