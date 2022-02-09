@@ -39,8 +39,6 @@ It explains what yoga is, the purpose of the website and explains the benefits o
 * CSS - No errors were found when passing through the official (
 
 Accessibility:
-![Lighthouse results]
-
 * Using lighthouse in devtools, I confirmed that the colors and fonts chosen are easy to read and accessible 
 
 ### Unfixed bugs
