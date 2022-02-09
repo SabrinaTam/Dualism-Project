@@ -83,6 +83,12 @@ h2 {
     display: table;
 }
 
+/* contact us*/
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 /* footer */
 .social-networks>li {
     display: inline;
